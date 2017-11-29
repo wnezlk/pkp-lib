@@ -11,50 +11,68 @@
   * Localization strings.
   -->
 
+
 <locale name="pl_PL" full_name="Język Polski">
+	<!-- Website settings -->
+	<message key="manager.website.information">Informacja</message>
+	<message key="manager.website.appearance">Wygląd</message>
+	<message key="manager.website.imageFileRequired">Wymagany jest plik obrazu. Upewnij się, że wybrałeś(aś) i przesłałeś(aś) plik.</message>
+
 	<message key="manager.announcements">Ogłoszenia</message>
 	<message key="manager.announcements.confirmDelete">Czy na pewno chcesz usunąć ten wpis?</message>
-	<message key="manager.announcements.create">Utwórz nowy wpis</message>
+	<message key="manager.announcements.create">Utwórz nowe ogłoszenie</message>
 	<message key="manager.announcements.createTitle">Utwórz</message>
 	<message key="manager.announcements.dateExpire">Wygaśnięcie</message>
-	<message key="manager.announcements.edit">Edytuj</message>
+	<message key="manager.announcements.datePublish">Opublikowany</message>
+	<message key="manager.announcements.edit">Edytuj ogłoszenie</message>
 	<message key="manager.announcements.editTitle">Edycja</message>
 	<message key="manager.announcements.form.dateExpireDayIncompleteDate">Wybierz rok i/lub miesiąc wygaśnięcia.</message>
 	<message key="manager.announcements.form.dateExpire">Data wygaśnięcia</message>
 	<message key="manager.announcements.form.dateExpireInstructions">Wpis będzie wyświetlany czytelnikom do tej daty. Zostaw pole puste, aby wpis nie wygasał.</message>
-	<message key="manager.announcements.form.dateExpireMonthIncompleteDate">Wybierz rok i/lub dzień wygaśnięcia wpisu.</message>
-	<message key="manager.announcements.form.dateExpireValid">Wybierz poprawną datę wygaśnięcia wpisu.</message>
-	<message key="manager.announcements.form.dateExpireYearIncompleteDate">Wybierz miesiąc i/lub dzień wygaśnięcia wpisu.</message>
+	<message key="manager.announcements.form.dateExpireMonthIncompleteDate">Wybierz rok i/lub dzień wygaśnięcia ogłoszenia.</message>
+	<message key="manager.announcements.form.dateExpireValid">Wybierz poprawną datę wygaśnięcia ogłoszenia.</message>
+	<message key="manager.announcements.form.dateExpireYearIncompleteDate">Wybierz miesiąc i/lub dzień wygaśnięcia ogłoszenia.</message>
 	<message key="manager.announcements.form.description">Opis</message>
-	<message key="manager.announcements.form.descriptionInstructions">Pełna treść wpisu.</message>
+	<message key="manager.announcements.form.descriptionInstructions">Pełna treść ogłoszenia.</message>
 	<message key="manager.announcements.form.descriptionRequired">Opis jest wymagany.</message>
 	<message key="manager.announcements.form.descriptionShortInstructions">Krótki opis wyświetlany wraz z tytułem wpisu.</message>
 	<message key="manager.announcements.form.descriptionShortRequired">Krótki opis jest wymagany.</message>
 	<message key="manager.announcements.form.descriptionShort">Krótki opis</message>
-	<message key="manager.announcements.form.saveAndCreateAnother">Zapisz i utwórz następny</message>
-	<message key="manager.announcements.form.titleRequired">Tytuł ogłoszenia jest wymagany.</message>
+	<message key="manager.announcements.form.saveAndCreateAnother">Zapisz i utwórz kolejny.</message>
+	<message key="manager.announcements.form.titleRequired">Wymagana jest nazwa ogłoszenia.</message>
 	<message key="manager.announcements.form.title">Tytuł</message>
-	<message key="manager.announcements.form.typeId">Rodzaj</message>
-	<message key="manager.announcements.form.typeIdValid">Wybierz poprawny rodzaj wpisu.</message>
-	<message key="manager.announcements.noneCreated">Wpis nie został utworzony.</message>
+	<message key="manager.announcements.form.typeId">Typ</message>
+	<message key="manager.announcements.form.typeIdValid">Wybierz poprawny rodzaj ogłoszenia.</message>
+	<message key="manager.announcements.noneCreated">Nie zostały utworzone żadne ogłoszenia.</message>
 	<message key="manager.announcements.title">Tytuł</message>
-	<message key="manager.announcements.type">Rodzaj</message>
+	<message key="manager.announcements.type">Typ</message>
 	<message key="manager.announcementTypes">Rodzaje ogłoszeń</message>
-	<message key="manager.announcementTypes.confirmDelete">Uwaga! Wszystkie wpisy tego rodzaju zostaną usunięte. Czy na pewno chcesz je usunąć?</message>
-	<message key="manager.announcementTypes.create">Utwórz rodzaj wpisu</message>
+	<message key="manager.announcementTypes.confirmDelete">Ostrzeżenie! Wszystkie ogłoszenia tego typu zostaną również usunięte. Czy na pewno chcesz kontynuować i usunąć ten typ ogłoszeń?</message>
+	<message key="manager.announcementTypes.create">Utwórz rodzaj ogłoszenia</message>
 	<message key="manager.announcementTypes.createTitle">Utwórz</message>
-	<message key="manager.announcementTypes.edit">Edytuj rodzaj wpisu</message>
+	<message key="manager.announcementTypes.edit">Edycja typu ogłoszenia</message>
 	<message key="manager.announcementTypes.editTitle">Edytuj</message>
-	<message key="manager.announcementTypes.form.saveAndCreateAnother">Zapisz i utwórz następne</message>
-	<message key="manager.announcementTypes.form.typeNameExists">Rodzaj wpisu o takiej samej nazwie już istnieje.</message>
+	<message key="manager.announcementTypes.form.saveAndCreateAnother">Zapisz i utwórz kolejny.</message>
+	<message key="manager.announcementTypes.form.typeNameExists">Istnieje już typ ogłoszenia o tej nazwie.</message>
 	<message key="manager.announcementTypes.form.typeName">Nazwa</message>
-	<message key="manager.announcementTypes.form.typeNameRequired">Nazwa rodzaju wpisu jest wymagana.</message>
-	<message key="manager.announcementTypes.noneCreated">Żadne rodzaje wpisów nie zostały utworzone.</message>
-	<message key="manager.announcementTypes.typeName">Rodzaje wpisów</message>
+	<message key="manager.announcementTypes.form.typeNameRequired">Wymagana jest nazwa typu ogłoszenia.</message>
+	<message key="manager.announcementTypes.noneCreated">Nie utworzono żadnych typów ogłoszeń.</message>
+	<message key="manager.announcementTypes.typeName">Rodzaj ogłoszenia</message>
+
+	<!-- Publication Process settings -->
+	<message key="manager.publication.submissionStage">Zgłoszenia</message>
+	<message key="manager.publication.reviewStage">Recenzje</message>
+	<message key="manager.publication.editorialStage">Redakcja</message>
+	<message key="manager.publication.productionStage">Produkcja</message>
+	<message key="manager.publication.emails">Wiadomości e-mail</message>
 	<message key="manager.emails.confirmDelete">Czy na pewno usunąć szablony wiadomości e-mail?</message>
 	<message key="manager.emails.confirmReset">Czy na pewno powrócić do ustawień domyślnych tego szablonu?</message>
+	<message key="manager.emails.addEmail">Dodaj szablon wiadomości e-mail</message>
 	<message key="manager.emails.createEmail">Utwórz e-mail</message>
-	<message key="manager.emails.disable">Wyłącz</message>
+	<message key="manager.emails.data">Dane szablonu</message>
+	<message key="manager.emails.details">Szczegóły szablonu</message>
+	<message key="manager.emails.disable">Wyłączony</message>
+	<message key="manager.emails.disable.message">Masz zamiar wyłączyć szablon. Jeżeli jakiś proces wykorzystywał ten szablon, nie będzie mógł dłużej tego robić. Czy chcesz kontynuować?</message>
 	<message key="manager.emails.editEmail">Edytuj e-mail</message>
 	<message key="manager.emails.editTestExample">Edytuj szablon testowy wiadomości e-mail</message>
 	<message key="manager.emails.emailKey">Klucz e-mail</message>
@@ -63,35 +81,43 @@
 	<message key="manager.emails.emailTemplates">Szablony wiadomości e-mail</message>
 	<message key="manager.emails.enabled">Włącz ten szablon</message>
 	<message key="manager.emails.enable">Włącz</message>
+	<message key="manager.emails.enable.message">Masz zamiar włączyć e-mail. Czy chcesz kontynuować?</message>
 	<message key="manager.emails.form.emailKeyRequired">Niepowtarzalny klucz e-mail jest wymagany dla tej wiadomości.</message>
 	<message key="manager.emails.form.bodyRequired">Treść wiadomości jest wymagana.</message>
 	<message key="manager.emails.form.subjectRequired">Tytuł wiadomości jest wymagany.</message>
 	<message key="manager.emails">Przygotowane wiadomości e-mail</message>
-	<message key="manager.emails.resetAll">Powrót do ustawień domyślnych dla wszystkich szablonów wiadomości e-mail</message>
-	<message key="manager.emails.reset">Ustawienia domyślne</message>
+	<message key="manager.emails.resetAll">Resetuj wszystkie szablony</message>
+	<message key="manager.emails.resetAll.message">Jeśli zresetujesz wszystkie szablony, wszystkie modyfikacje szablonów e-mail zostaną utracone.  Chcesz potwierdzić tę operację?</message>
+	<message key="manager.emails.reset">Reset</message>
+	<message key="manager.emails.reset.message">Po zresetowaniu tego szablonu wszystkie dane wiadomości zostaną przywrócone do wartości domyślnej, co spowoduje utratę wszystkich modyfikacji.  Chcesz potwierdzić tę operację?</message>
 	<message key="manager.emails.resetToDefault">Wróć do ustawień domyślnych</message>
 	<message key="manager.filesBrowser">Przeglądarka plików</message>
 	<message key="manager.files.confirmDelete">Usunąć plik lub katalog? Katalog musi być pusty aby mógł zostać usunięty.</message>
 	<message key="manager.files.createDir">Utwórz katalog</message>
-	<message key="manager.files.emptyDir">Żaden plik nie został odnaleziony w tym katalogu.</message>
+	<message key="manager.files.emptyDir">W tym katalogu nie znaleziono żadnych plików.</message>
 	<message key="manager.files.indexOfDir">Indeks katalogu {$dir}</message>
 	<message key="manager.files.parentDir">Nadrzędny katalog</message>
-	<message key="manager.files.uploadedFiles">Zdeponowane pliki</message>
+	<message key="manager.files.uploadedFiles">Przesłane pliki</message>
 	<message key="manager.files.uploadFile">Prześlij plik</message>
 	<message key="manager.groups.confirmDelete">Czy jesteś pewny, że chcesz usunąć tą grupę?</message>
 	<message key="manager.groups.createTitle">Utwórz tytuł</message>
 	<message key="manager.groups.editTitle">Edytuj tytuł</message>
-	<message key="manager.groups.form.groupTitleRequired">Tytuł grupy jest wymagany.</message>
+	<message key="manager.groups.form.groupTitleRequired">Wymagany jest tytuł grupy.</message>
 	<message key="manager.groups.membership.addMember">Dodaj członka</message>
 	<message key="manager.groups.membership.confirmDelete">Czy na pewno usunąć członkostwo w grupie?</message>
 	<message key="manager.groups.membership">Członkostwo</message>
 	<message key="manager.groups.membership.noneCreated">Ta grupa jest pusta.</message>
-	<message key="manager.groups.membership.noUsers">Żadni użytkownicy nie zostali odnalezieni.</message>
+	<message key="manager.groups.membership.noUsers">Nie znaleziono użytkowników.</message>
 	<message key="manager.groups.title">Tytuł</message>
-	<message key="manager.importExport">Importuj/eksportuj dane</message>
+	<message key="manager.importExport">mportuj/eksportuj dane</message>
+	<message key="manager.language.ui">Interfejs użytkownika</message>
+	<message key="manager.language.submissions">Zgłoszenia</message>
+	<message key="manager.language.forms">Formularze</message>
+	<message key="manager.language.reloadLocalizedDefaultSettings">Przeładuj ustawienia domyślne </message>
 	<message key="manager.languages.alternateLocaleInstructions">System umożliwia umieszczenie niektórych informacji w innych językach. Aby skorzystać z tej właściwości, wybierz język z listy dostępnych języków widocznej poniżej.</message>
 	<message key="manager.languages.supportedLocalesInstructions">Wybierz, które języki mają być dostępne dla strony z poziomu menu wyświetlanego na każdej podstronie. Menu pojawi się tylko w przypadku wybrania więcej niż jednego języka.</message>
 	<message key="manager.payment.timestamp">Datownik</message>
+	<message key="manager.people.existingUserRequired">Należy wprowadzić istniejącego użytkownika.</message>
 	<message key="manager.people.authSource">Źródło uwierzytelniania</message>
 	<message key="manager.people.confirmUnenroll">Wypisać tego użytkownika?</message>
 	<message key="manager.people.createUser">Utwórz nowego użytkownika</message>
@@ -110,7 +136,7 @@
 	<message key="manager.people.enroll">Zapisz użytkownika</message>
 	<message key="manager.people.enrollment">Rejestracja</message>
 	<message key="manager.people.enrollSelected">Zapisz zaznaczonych użytkowników</message>
-	<message key="manager.people.enrollSyncRole">Synchronizuj role</message>
+	<message key="manager.people.enrollSyncRole">ynchronizuj role</message>
 	<message key="manager.people.enrollSync">Synchronizuj zapisy</message>
 	<message key="manager.people.enrollUserAsDescription">Użytkownicy mogą zostać przydzieleni do roli w dowolnym czasie.</message>
 	<message key="manager.people.enrollUserAs">Zapisz użytkownika jako</message>
@@ -138,74 +164,30 @@
 	<message key="manager.plugins.sitePlugin">To jest wtyczka systemowa. Tylko administrator może zarządzać tą wtyczką.</message>
 	<message key="manager.plugins">Wtyczki systemowe</message>
 	<message key="manager.readingTools">Narzędzia czytelnicze</message>
-	<message key="manager.reviewerSearch.searchByName">Wyszukaj recenzenta po nazwie</message>
-	<message key="manager.reviewerSearch.doneAmount">Wykonanych recenzji: {$current}</message>
-	<message key="manager.reviewerSearch.avgAmount">Średnia długość procesu recenzowania (dni): {$current}</message>
-	<message key="manager.reviewerSearch.lastAmount">Dni od ostatniej recenzji: {$current}</message>
-	<message key="manager.reviewerSearch.activeAmount">Liczba aktywnych recenzji: {$current}</message>
-	<message key="manager.reviewerSearch.interests">Zainteresowania badawcze</message>
-	<message key="manager.roles">Role</message>
-	<message key="manager.setup.errorDeletingItem">Wystąpił błąd podczas usuwania tego pliku.</message>
-	<message key="manager.setup.homeHeaderImageInvalid">Niepoprawny plik obrazu dla logo. Akceptowane formaty to GIF, JPG lub PNG.</message>
-	<message key="manager.setup.homepageImageInvalid">Niepoprawny plik dla obrazu strony głównej. Akceptowane formaty to GIF, JPG lub PNG.</message>
-	<message key="manager.setup.homeTitleImageInvalid">Niepoprawny plik dla obrazu tytułu nagłówka. Akceptowane formaty to GIF, JPG lub PNG.</message>
-	<message key="manager.setup.layout.unselected">Niezaznaczone</message>
-	<message key="manager.setup.loggingAndAuditing">Logowanie i audyt</message>
-	<message key="manager.setup.pageHeaderLogoImageInvalid">Niepoprawny plik obrazu dla logo. Akceptowane formaty to GIF, JPG lub PNG.</message>
-	<message key="manager.statistics"><![CDATA[Statystyki i raporty]]></message>
-	<message key="manager.statistics.statistics.count.value">{$count} ({$percentage}%)</message>
-	<message key="manager.statistics.statistics.totalNewValue">{$numTotal} ({$numNew} new)</message>
-	<message key="manager.users">Użytkownicy</message>
-	<message key="plugins.categories.auth">Wtyczki autoryzacji</message>
-	<message key="plugins.categories.blocks">Wtyczki blokowe</message>
-	<message key="plugins.categories.blocks.description">Wtyczki blokowe są elementami interfejsu użytkownika.</message>
-	<message key="plugins.categories.gateways.description">Wtyczki bram udzielają danych dla zewnętrznych systemów.</message>
-	<message key="plugins.categories.gateways">Wtyczki bram</message>
-	<message key="plugins.categories.generic">Wtyczki ogólne</message>
-	<message key="plugins.categories.importexport.description">Wtyczki importu/eksportu mogą być wykorzystane do transferowania danych pomiędzy systemami.</message>
-	<message key="plugins.categories.importexport">Wtyczki importu/eksportu</message>
-	<message key="plugins.categories.paymethod.description">Wtyczki płatności umożliwiają dokonywanie płatności on-line.</message>
-	<message key="plugins.categories.paymethod">Wtyczki płatności</message>
-	<message key="plugins.categories.reports.description">Wtyczki raportowania wykorzystywane są do tworzenia raportów.</message>
-	<message key="plugins.categories.reports">Wtyczki raportowania</message>
-	<message key="plugins.categories.themes.description">Wtyczki motywów wykorzystywane są do zmiany wyglądu strony.</message>
-	<message key="plugins.categories.themes">Wtyczki motywów</message>
-	<message key="manager.announcements.datePublish">Opublikowany</message>
-	<message key="manager.emails.addEmail">Dodaj szablon wiadomości e-mail</message>
-	<message key="manager.emails.data">Dane szablonu</message>
-	<message key="manager.emails.details">Właściwości szablonu</message>
-	<message key="manager.emails.disable.message">Masz zamiar wyłączyć szablon. Jeżeli jakiś proces wykorzystywał ten szablon, nie będzie mógł dłużej tego robić. Czy chcesz kontynuować?</message>
-	<message key="manager.emails.enable.message">Masz zamiar włączyć e-mail. Czy chcesz kontynuować?</message>
-	<message key="manager.emails.resetAll.message">Jeżeli zresetujesz wszystkie szablony, wszystkie zmiany zostaną utracone. Czy chcesz kontynuować?</message>
-	<message key="manager.emails.reset.message">Jeżeli usuniesz szablon, wszystkie wiadomości będą zresetowane do swojej domyślnej wartości. Czy chcesz kontynuować?</message>
-	<message key="manager.reviewerSearch.searchByName.short">Wyszukaj po imieniu</message>
-	<message key="manager.reviewerSearch.form.instructions">Użyj formularza aby określić maksymalną liczbę wartości dla wyszukiwanych terminów. Formularz sugeruje uśrednione wartości dla pól.</message>
-	<message key="manager.reviewerSearch.form.interests.instructions">Podaj zainteresowania recenzenta, oddzielone przecinkami...</message>
-	<message key="manager.setup.layout.blockManagement">Zarządzanie paskiem bocznym</message>
-	<message key="manager.statistics.city">Miasto</message>
-	<message key="manager.statistics.region">Region</message>
-	<message key="plugins.categories.metadata">Wtyczki metadanych</message>
-	<message key="plugins.categories.metadata.description">Wtyczki metadanych pozwalają na implementację dodatkowych standardów metadanych.</message>
-	<message key="manager.website.information">Informacje</message>
-	<message key="manager.website.appearance">Wygląd</message>
-	<message key="manager.website.imageFileRequired">Obraz jest wymagany. Upewnij się, że wybrałeś(aś) i przesłałeś(aś) plik.</message>
-	<message key="manager.publication.submissionStage">Zgłoszenia</message>
-	<message key="manager.publication.reviewStage">Recenzje</message>
-	<message key="manager.publication.editorialStage">Redakcja</message>
-	<message key="manager.publication.productionStage">Produkcja</message>
-	<message key="manager.publication.emails">Wiadomości e-mail</message>
-	<message key="manager.language.ui">Interfejs użytkownika</message>
-	<message key="manager.language.submissions">Zgłoszenia</message>
-	<message key="manager.language.forms">Formularze</message>
-	<message key="manager.language.reloadLocalizedDefaultSettings">Przeładuj ustawienia domyślne</message>
-	<message key="manager.userSearch.searchByName">Szukaj wg imienia i nazwiska</message>
+	<message key="manager.userSearch.searchByName">Wyszukiwanie według nazwy użytkownika</message>
 	<message key="manager.reviewerSearch.change">Zmień</message>
+	<message key="manager.reviewerSearch.searchByName">Wyszukaj recenzenta po nazwie</message>
+	<message key="manager.reviewerSearch.searchByName.short">Wyszukaj po imieniu</message>
+	<message key="manager.reviewerSearch.doneAmount">Wykonanych recenzji: {$current}</message>
 	<message key="manager.reviewerSearch.doneAmountToggle">Włącz/wyłącz filtr dla wykonanych recenzji.</message>
+	<message key="manager.reviewerSearch.avgAmount">Średnia długość procesu recenzowania (dni): {$current}</message>
 	<message key="manager.reviewerSearch.avgAmountToggle">Włącz/wyłącz filtr dla średniej długości procesu recenzowania.</message>
+	<message key="manager.reviewerSearch.lastAmount">Dni od ostatniej recenzji: {$current}</message>
 	<message key="manager.reviewerSearch.lastAmountToggle">Włącz/wyłącz filtr dla dni od ostatniej recenzji.</message>
+	<message key="manager.reviewerSearch.activeAmount">Liczba aktywnych recenzji: {$current}</message>
 	<message key="manager.reviewerSearch.activeAmountToggle">Włącz/wyłącz filtr dla aktywnych recenzji.</message>
+	<message key="manager.reviewerSearch.interests">Zainteresowania badawcze</message>
+	<message key="manager.reviewerSearch.form.instructions">Użyj formularza aby określić maksymalną liczbę wartości dla wyszukiwanych terminów. Formularz sugeruje uśrednione wartości dla pól.</message>
+	<message key="manager.reviewerSearch.form.interests.instructions">Zainteresowania recenzenta (rodzaj wyszukiwania dopasowanych zainteresowań)</</message>
 	<message key="manager.reviewerSearch.form.previousReviewRounds">Poprzednie rundy recenzji dla recenzentów tego zgłoszenia</message>
-	<message key="manager.statistics.defaultMetricDescription">Twój {$contextObjectName} jest skonfigurowany tak, aby uwzględniać więcej niż jedną metrykę. Statystyki zostaną wyświetlone w wielu kontekstach. Istnieją przypadki, w których jedna metryka musi zostać wykorzystana, np. do wyświetlenia listy najczęściej otwieranych zgłoszeń lub w celu stopniowania wyników wyszukiwania. Wybierz jedną ze skonfigurowanych metryk jako domyślną.</message>
+	<message key="manager.roles">Role</message>
+	<message key="manager.statistics"><![CDATA[Stats &amp; Reports]]></message>
+	<message key="manager.statistics.defaultMetricDescription">
+		Twój {$contextObjectName} jest skonfigurowany tak, aby uwzględniać więcej niż jedną metrykę. Statystyki zostaną wyświetlone w wielu kontekstach. Istnieją przypadki, w których jedna metryka musi zostać wykorzystana, np. do wyświetlenia listy najczęściej otwieranych zgłoszeń lub w celu stopniowania wyników wyszukiwania. Wybierz jedną ze skonfigurowanych metryk jako domyślną.
+	</message>
+	<message key="manager.statistics.city">miasto</message>
+	<message key="manager.statistics.region">Region</message>
+	
 	<message key="manager.statistics.reports">Generator raportów</message>
 	<message key="manager.statistics.reports.description">System generuje raporty zawierające statystyki wykorzystania strony oraz zgłoszeń przez zadany okres czasu. Raporty są generowane w postaci plików CSV które można otworzyć za pomocą programu obsługującego arkusze kalkulacyjne.</message>
 	<message key="manager.statistics.reports.aggregationColumns">Gromadź statystyki wg:</message>
@@ -217,6 +199,7 @@
 	<message key="manager.statistics.reports.columns">Kolumny</message>
 	<message key="manager.statistics.reports.columns.description">Określ kolumny do zbudowania raportu. Wybrane kolumny definiują dane oraz poziom agregacji statystyk. Przykładowo, jeżeli wybierzesz ID, typ oraz miesiąc, raport będzie stanowił sumę wyświetleń obiektu w skali miesiąca a dane zostaną zaprezentowane w jednym wierszu. Jeżeli wybierzesz dzień zamiast miesiąca, każdy obiekt będzie posiadał osobny wiersz dla każdego dnia.</message>
 	<message key="manager.statistics.reports.filters">Filtry</message>
+	
 	<message key="manager.statistics.reports.objectNotFound">Obiekt nie został znaleziony w bazie danych</message>
 	<message key="manager.statistics.reports.objectType">Typ obiektu</message>
 	<message key="manager.statistics.reports.objectId">ID obiektu</message>
@@ -247,21 +230,29 @@
 	<message key="manager.setup.authorGuidelines">Wytyczne dla autorów</message>
 	<message key="manager.setup.authorGuidelines.description">Wytyczne powinny zawierać opis standardów formatowania bibliografii oraz ogólnego formatowania tekstu w plikach zgłaszanego tekstu.</message>
 	<message key="manager.setup.competingInterests">Konflikt interesów</message>
-	<message key="manager.setup.competingInterestsDescription">Recenzenci zostaną poproszeni o potwierdzenie, że nie występuje konflikt interesów.</message>
+	<message key="manager.setup.competingInterestsDescription">Recenzenci zostaną poproszeni o potwierdzenie, że nie występuje konflikt interesów.</message> <!-- FIXME #6843 (JM): should this just reference reviewers? -->
+	<message key="manager.setup.errorDeletingItem">Wystąpił błąd podczas usuwania tego pliku.</message>
 	<message key="manager.setup.favicon">Nieprawidłowy format favicony. Akceptowane formaty to ICO, PNG oraz GIF.</message>
 	<message key="manager.setup.groupType">Grupowanie plików</message>
+	<message key="manager.setup.homeHeaderImageInvalid">Niepoprawny plik obrazu dla logo. Akceptowane formaty to GIF, JPG lub PNG.</message>
 	<message key="manager.setup.homepageImage">Obraz dla strony głównej</message>
 	<message key="manager.setup.homepageImageDescription">Prześlij obraz wyświetlany na stronie głównej.</message>
+	<message key="manager.setup.homepageImageInvalid">Niepoprawny plik dla obrazu strony głównej. Akceptowane formaty to GIF, JPG lub PNG.</message>
+	<message key="manager.setup.homeTitleImageInvalid">Niepoprawny plik dla obrazu tytułu nagłówka. Akceptowane formaty to GIF, JPG lub PNG.</message>
 	<message key="manager.setup.information.descriptionTitle">Opisy</message>
 	<message key="manager.setup.layout.theme">Motyw</message>
 	<message key="manager.setup.layout.themeDescription">Nowe motywy mogą zostać zainstalowane w zakładce Wtyczki dostępnej w nagłówku tej strony.</message>
+	<message key="manager.setup.layout.blockManagement">Zarządzanie paskiem bocznym</message>
 	<message key="manager.setup.layout.sidebar">Pasek boczny</message>
+	<message key="manager.setup.layout.unselected">Niezaznaczone</message>
+	<message key="manager.setup.loggingAndAuditing">Logowanie i audyt</message>
 	<message key="manager.setup.logo">Logo</message>
 	<message key="manager.setup.notifications">Powiadomienia oraz zgłoszenia</message>
 	<message key="manager.setup.notifications.copySpecifiedAddress">Wyślij kopię na ten adres e-mail</message>
 	<message key="manager.setup.notifications.description">Autorzy automatycznie otrzymują wiadomość e-mail potwierdzającą ich zgłoszenie. Możesz wysłać kopię tych wiadomości e-mail na adres:</message>
 	<message key="manager.setup.openAccessPolicy">Polityka otwartości</message>
 	<message key="manager.setup.openAccessPolicy.description">Jeżeli dostęp do treści jest otwarty, możesz umieścić tutaj treść polityki otwartości.</message>
+	<message key="manager.setup.pageHeaderLogoImageInvalid">Niepoprawny plik obrazu dla logo. Akceptowane formaty to GIF, JPG lub PNG.</message>
 	<message key="manager.setup.pageFooter">Stopka strony</message>
 	<message key="manager.setup.pageFooterDescription">W stopce możesz umieścić obrazy, tekst lub HTML.</message>
 	<message key="manager.setup.peerReview.description">Opisz warunki recenzji oraz jej proces dla czytelników oraz autorów. Opis zazwyczaj zawiera ilość recenzentów przydzielonych do zgłoszonego tekstu, kryteria oceny, czas recenzji oraz zasady przydzielania recenzentów do tekstu.</message>
@@ -283,18 +274,39 @@
 	<message key="manager.setup.technicalSupportContact">Wsparcie techniczne</message>
 	<message key="manager.setup.technicalSupportContactDescription">Dane osoby, która wspiera redakcję, autorów i recenzentów w rozwiązywaniu wszelkich problemów ze zgłaszaniem tekstów, redagowaniem, recenzowaniem lub publikowaniem materiałów.</message>
 	<message key="manager.siteAccessOptions.siteAccessOptions">Ustawienia dostępu do strony</message>
+	<message key="manager.statistics.statistics.count.value">{$count} ({$percentage}%)</message>
+	<message key="manager.statistics.statistics.totalNewValue">{$numTotal} ({$numNew} new)</message>
+	<message key="manager.users">Użytkownicy</message>
+	<message key="plugins.categories.metadata">Wtyczki metadanych</message>
+	<message key="plugins.categories.metadata.description">Wtyczki metadanych pozwalają na implementację dodatkowych standardów metadanych.</message>
+	<message key="plugins.categories.auth">>Wtyczki autoryzacji</message>
+	<message key="plugins.categories.blocks">Wtyczki blokowe</message>
+	<message key="plugins.categories.blocks.description">Wtyczki blokowe są elementami interfejsu użytkownika.</message>
+	<message key="plugins.categories.gateways.description">Wtyczki bram udzielają danych dla zewnętrznych systemów.</message>
+	<message key="plugins.categories.gateways">Wtyczki bram</message>
+	<message key="plugins.categories.generic">Wtyczki ogólne</message>
+	<message key="plugins.categories.importexport.description">Wtyczki importu/eksportu mogą być wykorzystane do transferowania danych pomiędzy systemami.</message>
+	<message key="plugins.categories.importexport">Wtyczki importu/eksportu</message>
+	<message key="plugins.categories.paymethod.description">Wtyczki płatności umożliwiają dokonywanie płatności on-line.</message>
+	<message key="plugins.categories.paymethod">Wtyczki płatności</message>
+	<message key="plugins.categories.reports.description">Wtyczki raportowania wykorzystywane są do tworzenia raportów.</message>
+	<message key="plugins.categories.reports">Wtyczki raportowania</message>
+	<message key="plugins.categories.themes.description">Wtyczki motywów wykorzystywane są do zmiany wyglądu strony.</message>
+	<message key="plugins.categories.themes">Wtyczki motywów</message>
 	<message key="plugins.categories.oaiMetadataFormats">Wtyczki metadanych OAI</message>
 	<message key="plugins.categories.oaiMetadataFormats.description">Wtyczki wykorzystywane do przesyłania metadanych w komunikacji z OAI.</message>
 	<message key="plugins.categories.pubIds">Wtyczki publicznych identyfikatorów</message>
 	<message key="plugins.categories.pubIds.description">Wtyczki dodają obsługę publicznych identyfikatorów.</message>
+
+	<!-- Plugin management -->
 	<message key="manager.plugins.copyError">Wtyczka nie została poprawnie skopiowana. Sprawdź uprawnienia zapisu w folderze wtyczek i spróbuj ponownie.</message>
 	<message key="manager.plugins.delete">Usuń wtyczkę</message>
 	<message key="manager.plugins.installConfirm">Czy na pewno zainstalować tą wtyczkę?</message>
 	<message key="manager.plugins.upgradeConfirm">Czy na pewno zaktualizować tą wtyczkę?</message>
-	<message key="grid.action.installPlugin">Zainstaluj lub zaktualizuj wtyczkę</message>
-	<message key="manager.plugins.deleteConfirm">Potwierdź usunięcie wtyczki z systemu</message>
-	<message key="manager.plugins.deleteDescription">Kliknięcie przycisku usuń spowoduje usunięcie wtyczki z serwera.</message>
-	<message key="manager.plugins.deleteError">Wtyczka "{$pluginName}" nie może zostać usunięta z systemu. Sprawdź uprawnienia zapisu w folderze wtyczek i spróbuj ponownie.</message>
+	<message key="grid.action.installPlugin">Zainstaluj lub uaktualnij wtyczkę</message>
+	<message key="manager.plugins.deleteConfirm">Czy na pewno chcesz usunąć tę wtyczkę z systemu?</message>
+	<message key="manager.plugins.deleteDescription">Klikając na Usuń usuniesz wtyczkę z systemu plików serwera.</message>
+	<message key="manager.plugins.deleteError">Wtyczka "{$pluginName}" nie można było usunąć z systemu plików. Może to być problem z uprawnieniami. Upewnij się, że serwer WWW ma prawa do modyfikacji katalogu wtyczek (w tym podkatalogów), ale nie zapomnij zabezpieczyć go ponownie później.</message>
 	<message key="manager.plugins.deleteSuccess">Wtyczka "{$pluginName}" usunięta</message>
 	<message key="manager.plugins.description">Na tej stronie administrator czasopisma może konfigurować wtyczki zainstalowane w systemie. Wtyczki zostały podzielone na kategorie w zależności od ich funkcjonalności. Kategorie widoczne są poniżej.</message>
 	<message key="manager.plugins.doesNotExist">Wtyczka "{$pluginName}" nie istnieje</message>
@@ -308,11 +320,13 @@
 	<message key="manager.plugins.pluginGallery.installation">Instalacja</message>
 	<message key="manager.plugins.pluginGallery.latestCompatible">Najnowsza wspierana wersja</message>
 	<message key="manager.plugins.pluginGallery.certifications.official">Oficjalna</message>
-	<message key="manager.plugins.pluginGallery.certifications.reviewed">Przejrzana</message>
+	<message key="manager.plugins.pluginGallery.certifications.official.description">Ta wtyczka jest rozwijana i utrzymywana przez zespół Projektu.</message>
+	<message key="manager.plugins.pluginGallery.certifications.reviewed">Zweryfikowana</message>
+	<message key="manager.plugins.pluginGallery.certifications.reviewed.description">Ta wtyczka została sprawdzona i zatwierdzona przez zespół Projektu.</message>
 	<message key="manager.plugins.pluginGallery.certifications.partner">Zewnętrzna</message>
+	<message key="manager.plugins.pluginGallery.certifications.partner.description">Dodatek ten jest dostarczany przez jednego z naszych partnerów.</message>
 	<message key="manager.plugins.pluginGallery.maintainer">Zarządzający</message>
-	<message key="manager.plugins.pluginGallery.version">Wersja: {$version}</message>
-	<message key="manager.plugins.pluginGallery.date">Data opublikowania: {$date}</message>
+	<message key="manager.plugins.pluginGallery.version">v{$version} wydana {$date}</message>
 	<message key="manager.plugins.pluginGallery.homepage">Strona autora</message>
 	<message key="manager.plugins.pluginGallery.summary">Podsumowanie</message>
 	<message key="manager.plugins.pluginGallery.status">Status</message>
@@ -321,14 +335,14 @@
 	<message key="manager.plugins.installedVersionNewer">Wtyczka jest już zainstalowana i jej wersja jest nowsza niż dostępna w bibliotece.</message>
 	<message key="manager.plugins.installedVersionOlder">Wtyczka jest już zainstalowana, ale może zostać zaktualizowana do nowszej wersji.</message>
 	<message key="manager.plugins.installedVersionNewest">Wtyczka zainstalowana i aktualna.</message>
-	<message key="manager.plugins.installedVersionNewer.short">Nowsza</message>
-	<message key="manager.plugins.installedVersionOlder.short">Do aktualizacji</message>
+	<message key="manager.plugins.installedVersionNewer.short">Nowsza niż dostępna wersja</message>
+	<message key="manager.plugins.installedVersionOlder.short">Możliwa do aktualizacji</message>
 	<message key="manager.plugins.installedVersionNewest.short">Aktualna</message>
-	<message key="manager.plugins.noCompatibleVersion.short">Niedostępna</message>
-	<message key="manager.plugins.installFailed">Błąd. {$errorString}</message>
-	<message key="manager.plugins.installSuccessful">Zainstalowano {$versionNumber}</message>
-	<message key="manager.plugins.invalidPluginArchive">Archiwum przesłanej wtyczki nie posiada folderu z nazwą odpowiadającą nazwie wtyczki.</message>
-	<message key="manager.plugins.wrongCategory">Przesłana wtyczka nie pasuje do kategorii aktualizowanej wtyczki.</message>
+	<message key="manager.plugins.noCompatibleVersion.short">Nie dostepna</message>
+	<message key="manager.plugins.installFailed">Instalacja nie powiodła się. {$errorString}</message>
+	<message key="manager.plugins.installSuccessful">Skutecznie zainstalowana wersja {$versionNumber}</message>
+	<message key="manager.plugins.invalidPluginArchive">Wgrane archiwum wtyczek nie zawiera folderu odpowiadającego nazwie wtyczki.</message>
+	<message key="manager.plugins.wrongCategory">Wgrana wtyczka nie pasuje do kategorii uaktualnionej wtyczki.</message>
 	<message key="manager.plugins.wrongName">Nazwy wtyczki w version.xml różnią się od nazwy aktualizowanej wtyczki.</message>
 	<message key="manager.plugins.pleaseInstall">Wtyczka nie istnieje, musi zostać najpierw zainstalowana</message>
 	<message key="manager.plugins.pleaseUpgrade">Wtyczka istnieje, ale jest nowsza od aktualnie zainstalowanej. Zaktualizuj wtyczkę</message>
@@ -342,6 +356,8 @@
 	<message key="manager.plugins.uploadPluginDir">Wybierz plik wtyczki</message>
 	<message key="manager.plugins.versionFileInvalid">Plik version.xml wtyczki posiada błędne dane.</message>
 	<message key="manager.plugins.versionFileNotFound">Plik version.xml nie został odnaleziony</message>
+
+	
 	<message key="notification.localeEnabled">Język włączony.</message>
 	<message key="notification.localeDisabled">Język wyłączony.</message>
 	<message key="notification.primaryLocaleDefined">{$locale} jest określony jako domyślny.</message>
@@ -349,17 +365,24 @@
 	<message key="notification.localeUninstalled">Język {$locale} odinstalowany.</message>
 	<message key="notification.localeReloaded">Język {$locale} przeładowany.</message>
 	<message key="notification.localeSettingsSaved">Ustawienia językowe zapisane.</message>
-	<message key="notification.editedUser">Edycja zakończona sukcesem.</message>
-	<message key="manager.distribution.indexing">Indeksowanie</message>
+	<message key="notification.editedUser">Użytkownik edytowany.</message>
+
+	<!-- Distribution Process settings -->
+	<message key="manager.distribution.indexing">Indexing</message>
+
+	<!-- Payment Method settings -->
 	<message key="manager.paymentMethod">Płatności</message>
 	<message key="manager.paymentMethod.title">Metody płatności</message>
-	<message key="manager.paymentMethod.none">Nie wybrano metod płatności</message>
+	<message key="manager.paymentMethod.none">Nie wybrana metoda płatności</message>
 	<message key="manager.paymentMethod.method">Metoda płatności</message>
 	<message key="manager.paymentMethod.currency">Waluta</message>
-	<message key="manager.paymentMethod.currency.description">Płatności realizowane przez stronę będą realizowane w wybranej walucie.</message>
+	<message key="manager.paymentMethod.currency.description">Płatności dokonane bezpośrednio za pośrednictwem tej strony internetowej będą denominowane w wybranej walucie.</message>
+
+	<!-- Roles grid settings -->
 	<message key="settings.roles.roleOptions">Ustawienia roli</message>
 	<message key="settings.roles.showTitles">Wyświetl nazwy ról na liście współpracowników</message>
 	<message key="settings.roles.permitSelfRegistration">Pozwól na samorejestrację użytkowników</message>
+	<message key="settings.roles.recommendOnly">This role is only allowed to recommend a review decision and will require an authorised editor to record a final decision.</message>
 	<message key="settings.roles.roleName">Nazwa roli</message>
 	<message key="settings.roles.roleAbbrev">Skrót</message>
 	<message key="settings.roles.assignedStages">Przydzielone etapy</message>
@@ -373,6 +396,8 @@
 	<message key="settings.roles.uniqueAbbrev">Musisz określić niepowtarzalny skrót roli.</message>
 	<message key="settings.roles.roleIdRequired">Musisz określić poziom uprawnień roli.</message>
 	<message key="settings.roles.stageIdRequired">Musisz przydzielić rolę do etapów.</message>
+
+	<!-- Library Files -->
 	<message key="settings.libraryFiles.fileRequired">Plik biblioteki jest wymagany. Upewnij się, że wybrałeś i przesłałeś plik.</message>
 	<message key="settings.libraryFiles.nameRequired">Nazwa jest wymagana dla pliku biblioteki.</message>
 	<message key="settings.libraryFiles.typeRequired">Rodzaj pliku jest wymagany dla pliku biblioteki.</message>
@@ -381,12 +406,18 @@
 	<message key="settings.libraryFiles.category.permissions">Uprawnienia</message>
 	<message key="settings.libraryFiles.category.reports">Raporty</message>
 	<message key="settings.libraryFiles.category.other">Inne</message>
+
+	<!--  Genre grid settings -->
 	<message key="grid.action.addGenre">Dodaj element</message>
 	<message key="grid.action.editGenre">Edytuj element</message>
 	<message key="grid.action.deleteGenre">Usuń element</message>
 	<message key="grid.action.restoreGenres">Przywróć elementy do ich ustawień domyślnych</message>
 	<message key="manager.setup.genres.dependent">Oznacz pliki tego typu jako zależne (np. aby nie były widoczne razem z opublikowaną treścią)</message>
 	<message key="manager.setup.genres.supplementary">Oznacz pliki tego typu jako dodatkowe (np. nie będące główną zawartością zgłoszenia)</message>
+	<message key="manager.setup.genres.key">Klucz</message>
+	<message key="manager.setup.genres.key.description">An optional short symbolic identifer for this genre.</message>
+	<message key="manager.setup.genres.key.exists">Klucz już istnieje.</message>
+	<message key="manager.setup.genres.key.alphaNumeric">lucz może zawierać tylko znaki alfanumeryczne, podkreślenia i myślniki i musi rozpoczynać się i kończyć znakiem alfanumerycznym.</message>
 	<message key="manager.settings.wizard">Kreator ustawień</message>
 	<message key="manager.users.roleRequired">Musisz przydzielić przynajmniej jedną rolę dla tego użytkownika.</message>
 	<message key="manager.website">Strona internetowa</message>
@@ -395,25 +426,27 @@
 	<message key="manager.workflow.title">Ustawienia obiegu</message>
 	<message key="manager.distribution">Dystrybucja</message>
 	<message key="manager.distribution.title">Ustawienia dystrybucji</message>
-	<message key="manager.reviewForms">Formularze recenzji</message>
+
+	<!-- Review forms -->
+		<message key="manager.reviewForms">Formularze recenzji</message>
 	<message key="manager.reviewForms.confirmActivate">Czy na pewno włączyć formularz recenzji? Po zastosowaniu go do procesu recenzji nie będziesz mógł go wyłączyć.</message>
 	<message key="manager.reviewForms.confirmDeactivate">Czy na pewno wyłączyć formularz recenzji? Nie będzie dostępny dla nowych recenzji.</message>
 	<message key="manager.reviewForms.confirmCopy">Czy na pewno utworzyć kopię formularza?</message>
-	<message key="manager.reviewForms.completed">Zakończone</message>
+	<message key="manager.reviewForms.completed">Zakończona</message>
 	<message key="manager.reviewForms.confirmDelete">Czy na pewno usunąć formularz recenzji?</message>
 	<message key="manager.reviewForms.create">Utwórz formularz recenzji</message>
 	<message key="manager.reviewForms.description">Opis oraz instrukcje</message>
-	<message key="manager.reviewForms.edit">Edytuj formularz</message>
-	<message key="manager.reviewForms.form.titleRequired">Nazwa dla formularza recenzji jest wymagana.</message>
-	<message key="manager.reviewForms.inReview">Recenzja</message>
+	<message key="manager.reviewForms.edit">Formularz recenzji</message>
+	<message key="manager.reviewForms.form.titleRequired">Formularz recenzji wymaga tytułu.</message>
+	<message key="manager.reviewForms.inReview">W recenzji</message>
 	<message key="manager.reviewForms.list.description">Formularze recenzji utworzone w tym miejscu będą dostępne dla recenzentów zamiast domyślnych formularzy, które składają się z dwóch pól - "dla autora i redaktora" oraz "dla redaktora". Formularze recenzji mogą zostać przydzielone do wybranych działów a redaktorzy będą mogli wybrać formularz najbardziej odpowiedni dla recenzowanego tekstu. W każdym wypadku redaktorzy posiadają możliwość dołączenia recenzji w korespondencji z autorem.</message>
 	<message key="manager.reviewForms.noneChosen">Żaden / pusty formularz</message>
 	<message key="manager.reviewForms.noneCreated">Brak utworzonych formularzy recenzji.</message>
 	<message key="manager.reviewForms.noneUsed">Brak wykorzystanych formularzy recenzji.</message>
 	<message key="manager.reviewForms.preview">Podejrzyj formularz</message>
 	<message key="manager.reviewForms.reviewFormData">Przejrzyj parametry formularza</message>
-	<message key="manager.reviewForms.title">Nazwa</message>
-	<message key="manager.reviewFormElement.changeType">Zmień rodzaj elementu formularza...</message>
+	<message key="manager.reviewForms.title">Tytuł</message>
+	<message key="manager.reviewFormElement.changeType">Zmiana typu elementu formularza...</message>
 	<message key="manager.reviewFormElements">Elementy formularza</message>
 	<message key="manager.reviewFormElements.addResponseItem">Dodaj sekcję</message>
 	<message key="manager.reviewFormElements.checkboxes">Pola wyboru (możesz wybrać jedno lub więcej)</message>
@@ -439,13 +472,74 @@
 	<message key="grid.action.createReviewForm">Utwórz nowy formularz recenzji</message>
 	<message key="manager.setup.reviewerCompetingInterestsRequired.description">Oświadczenie o braku konfliktu interesów</message>
 	<message key="manager.setup.competingInterests.required">Podczas recenzji poproś o oświadczenie o braku konfliktu interesów.</message>
+
 	<message key="manager.setup.licenseURLDescription">Link do strony z treścią licencji, jeśli jest dostępna.</message>
+
 	<message key="manager.setup.metadata.submission">Formularz przesyłania</message>
+	
+	<!--  common importexport keys -->
 	<message key="plugins.importexport.common.validationErrors">Błędy walidacji:</message>
+	<message key="plugins.importexport.common.warningsEncountered">Napotkane ostrzeżenia:</message>
 	<message key="plugins.importexport.common.errorsOccured">Wystąpiły błędy:</message>
 	<message key="plugins.importexport.common.error.unknownElement">Nieznany element {$param}</message>
 	<message key="plugins.importexport.common.error.unknownGenre">Nieznany rodzaj {$param}</message>
 	<message key="plugins.importexport.common.error.unknownEncoding">Nieznane kodowanie {$param}</message>
+	<message key="plugins.importexport.common.error.encodingError">Zawartość nie jest kodowana, ponieważ {$param}</message>
 	<message key="plugins.importexport.common.error.unknownUserGroup">Nieznana grupa użytkowników {$param}</message>
 	<message key="plugins.importexport.common.error.unknownUploader">Nieznany element {$param}</message>
+	<message key="plugins.importexport.common.error.temporaryFileFailed">Plik tymczasowy {$dest} nie można było stworzyć z {$source}</message>
+	<message key="plugins.importexport.common.error.filesizeMismatch">Podany rozmiar pliku "{$expected}" oraz rzeczywista wielkość pliku "{$actual}" nie pasuje</message>
+	<message key="plugins.importexport.common.error.duplicateRevisionForSubmission">Recenzja "{$revisionId}" for submission file "{$fileId}" would create a duplicate record</message>
+	
+	<!-- native importexport keys -->
+	<message key="plugins.importexport.native.error.submissionFileImportFailed">The submission file could not be imported</message>
+
+	<!-- Navigation Menus -->
+	<message key="manager.navigationMenus.form.title">Tytuł</message>
+	<message key="manager.navigationMenus.form.path">Ścieżka</message>
+	<message key="manager.navigationMenus">Navigation Menus</message>
+	<message key="manager.navigationMenus.form.viewInstructions"><![CDATA[<p>Tę stronę można znaleźć pod adresem: <blockquote>{$pagesPath}</blockquote>...gdzie %PATH% jest ścieżką wprowadzoną powyżej. <strong>Uwaga:</strong> Dwie strony nie mogą mieć tej samej ścieżki. Używanie ścieżek wbudowanych w system może spowodować utratę dostępu do ważnych funkcji..</p>]]></message>
+	<message key="manager.navigationMenus.form.content">Zawartość</message>
+	<message key="manager.navigationMenus.form.pathRegEx">Pole ścieżki musi zawierać jedynie znaki alfanumeryczne plus '.', '/', '-', i '_'.</message>
+	<message key="manager.navigationMenus.form.duplicatePath">Ścieżka ta istnieje już w innym punkcie menu nawigacyjnego.</message>
+	<message key="manager.navigationMenus.form.duplicateTitles">Tytuł ten istnieje już w innym menu nawigacyjnym.</message>
+	<message key="manager.navigationMenus.form.titleRequired">Wymagany jest tytuł</message>
+	<message key="manager.navigationMenuItems">Navigation Menu Items</message>
+	<message key="manager.navigationMenus.assignedMenuItems">Przypisane pozycje menu</message>
+	<message key="manager.navigationMenus.unassignedMenuItems">Nieprzypisane pozycje menu</message>
+	<message key="manager.navigationMenus.form.navigationMenuArea">Active Theme Navigation Areas</message>
+	<message key="manager.navigationMenus.form.navigationMenuAreaMessage">Wybierz obszar nawigacji</message>
+
+	<message key="manager.navigationMenus.form.url">URL</message>
+	<message key="manager.navigationMenus.form.customUrlError">URL musi być podany</message>
+
+	<message key="manager.navigationMenus.form.conditionalDisplay">Learn more about when this menu item will be displayed or hidden.</message>
+	<message key="manager.navigationMenus.form.submenuWarning">When a menu item opens a submenu, it's link can not be followed on all devices. For example, if you have an "About" item which opens a submenu with "Contact" and "Editorial Team", the "About" link may not be reachable on all devices. In the default menu, this is handled by creating a second menu item, "About the Journal", which appears in the submenu.</message>
+
+	<message key="manager.navigationMenus.form.navigationMenuItemType">Navigation Menu Type</message>
+	<message key="manager.navigationMenus.form.navigationMenuItemTypeMessage">Select a Navigation Menu Type or Custom to make your own</message>
+	<message key="manager.navigationMenus.customPage">Custom Page</message>
+	<message key="manager.navigationMenus.customPage.description">Create a custom page on your site and link to it from a navigation menu.</message>
+	<message key="manager.navigationMenus.remoteUrl">Remote URL</message>
+	<message key="manager.navigationMenus.remoteUrl.description">Link to any URL on another site, like https://pkp.sfu.ca.</message>
+	<message key="manager.navigationMenus.about.description">Link to a page displaying the About the Journal content in Settings > Journal</message>
+	<message key="manager.navigationMenus.about.conditionalWarning">This link will only be displayed if you have filled out the About the Journal section under Settings > Journal.</message>
+	<message key="manager.navigationMenus.editorialTeam.description">Link to a page displaying the Masthead content in Settings > Journal.</message>
+	<message key="manager.navigationMenus.editorialTeam.conditionalWarning">This link will only be displayed if you have filled out the Editorial Team section under Settings > Journal.</message>
+	<message key="manager.navigationMenus.submissions.description">Link to the page displaying submission instructions.</message>
+	<message key="manager.navigationMenus.current.description">Link to your current issue.</message>
+	<message key="manager.navigationMenus.archives.description">Link to your issue archive.</message>
+	<message key="manager.navigationMenus.announcements.description">Link to the page displaying your announcements.</message>
+	<message key="manager.navigationMenus.announcements.conditionalWarning">This link will only be displayed if you have enabled announcements under Settings > Website.</message>
+	<message key="manager.navigationMenus.login.description">Link to the user login page.</message>
+	<message key="manager.navigationMenus.register.description">Link to the user registration page.</message>
+	<message key="manager.navigationMenus.dashboard.description">Link to the editorial dashboard.</message>
+	<message key="manager.navigationMenus.profile.description">Link to the user profile page.</message>
+	<message key="manager.navigationMenus.administration.description">Link to the site-wide administration tools.</message>
+	<message key="manager.navigationMenus.administration.conditionalWarning">This link will only be displayed to administrative users.</message>
+	<message key="manager.navigationMenus.logOut.description">A link that will log the user out.</message>
+	<message key="manager.navigationMenus.loggedOut.conditionalWarning">This link will only be displayed when the visitor is logged in.</message>
+	<message key="manager.navigationMenus.loggedIn.conditionalWarning">This link will only be displayed when the visitor is not logged in.</message>
+	<message key="manager.navigationMenus.contact.description">Link to a page displaying your contact information.</message>
+	<message key="manager.navigationMenus.contact.conditionalWarning">This link will only be displayed if you have filled out the Contact information under Settings > Contact.</message>
 </locale>
