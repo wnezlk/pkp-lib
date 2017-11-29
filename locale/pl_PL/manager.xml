@@ -178,7 +178,7 @@
 	<message key="manager.reviewerSearch.activeAmountToggle">Włącz/wyłącz filtr dla aktywnych recenzji.</message>
 	<message key="manager.reviewerSearch.interests">Zainteresowania badawcze</message>
 	<message key="manager.reviewerSearch.form.instructions">Użyj formularza aby określić maksymalną liczbę wartości dla wyszukiwanych terminów. Formularz sugeruje uśrednione wartości dla pól.</message>
-	<message key="manager.reviewerSearch.form.interests.instructions">Zainteresowania recenzenta (rodzaj wyszukiwania dopasowanych zainteresowań)</</message>
+	<message key="manager.reviewerSearch.form.interests.instructions">Zainteresowania recenzenta (rodzaj wyszukiwania dopasowanych zainteresowań)</message>
 	<message key="manager.reviewerSearch.form.previousReviewRounds">Poprzednie rundy recenzji dla recenzentów tego zgłoszenia</message>
 	<message key="manager.roles">Role</message>
 	<message key="manager.statistics"><![CDATA[Stats &amp; Reports]]></message>
@@ -279,7 +279,7 @@
 	<message key="manager.users">Użytkownicy</message>
 	<message key="plugins.categories.metadata">Wtyczki metadanych</message>
 	<message key="plugins.categories.metadata.description">Wtyczki metadanych pozwalają na implementację dodatkowych standardów metadanych.</message>
-	<message key="plugins.categories.auth">>Wtyczki autoryzacji</message>
+	<message key="plugins.categories.auth">Wtyczki autoryzacji</message>
 	<message key="plugins.categories.blocks">Wtyczki blokowe</message>
 	<message key="plugins.categories.blocks.description">Wtyczki blokowe są elementami interfejsu użytkownika.</message>
 	<message key="plugins.categories.gateways.description">Wtyczki bram udzielają danych dla zewnętrznych systemów.</message>
