@@ -136,7 +136,7 @@
 	<message key="manager.people.enroll">Zapisz użytkownika</message>
 	<message key="manager.people.enrollment">Rejestracja</message>
 	<message key="manager.people.enrollSelected">Zapisz zaznaczonych użytkowników</message>
-	<message key="manager.people.enrollSyncRole">ynchronizuj role</message>
+	<message key="manager.people.enrollSyncRole">Synchronizuj role</message>
 	<message key="manager.people.enrollSync">Synchronizuj zapisy</message>
 	<message key="manager.people.enrollUserAsDescription">Użytkownicy mogą zostać przydzieleni do roli w dowolnym czasie.</message>
 	<message key="manager.people.enrollUserAs">Zapisz użytkownika jako</message>
