@@ -497,14 +497,14 @@
 	<!-- Navigation Menus -->
 	<message key="manager.navigationMenus.form.title">Tytuł</message>
 	<message key="manager.navigationMenus.form.path">Ścieżka</message>
-	<message key="manager.navigationMenus">Navigation Menus</message>
+	<message key="manager.navigationMenus">Pozycje Menu</message>
 	<message key="manager.navigationMenus.form.viewInstructions"><![CDATA[<p>Tę stronę można znaleźć pod adresem: <blockquote>{$pagesPath}</blockquote>...gdzie %PATH% jest ścieżką wprowadzoną powyżej. <strong>Uwaga:</strong> Dwie strony nie mogą mieć tej samej ścieżki. Używanie ścieżek wbudowanych w system może spowodować utratę dostępu do ważnych funkcji..</p>]]></message>
 	<message key="manager.navigationMenus.form.content">Zawartość</message>
 	<message key="manager.navigationMenus.form.pathRegEx">Pole ścieżki musi zawierać jedynie znaki alfanumeryczne plus '.', '/', '-', i '_'.</message>
 	<message key="manager.navigationMenus.form.duplicatePath">Ścieżka ta istnieje już w innym punkcie menu nawigacyjnego.</message>
 	<message key="manager.navigationMenus.form.duplicateTitles">Tytuł ten istnieje już w innym menu nawigacyjnym.</message>
 	<message key="manager.navigationMenus.form.titleRequired">Wymagany jest tytuł</message>
-	<message key="manager.navigationMenuItems">Navigation Menu Items</message>
+	<message key="manager.navigationMenuItems">Elementy Menu Nawigacji</message>
 	<message key="manager.navigationMenus.assignedMenuItems">Przypisane pozycje menu</message>
 	<message key="manager.navigationMenus.unassignedMenuItems">Nieprzypisane pozycje menu</message>
 	<message key="manager.navigationMenus.form.navigationMenuArea">Active Theme Navigation Areas</message>
