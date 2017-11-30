@@ -185,7 +185,7 @@
 	<message key="manager.statistics.defaultMetricDescription">
 		Twój {$contextObjectName} jest skonfigurowany tak, aby uwzględniać więcej niż jedną metrykę. Statystyki zostaną wyświetlone w wielu kontekstach. Istnieją przypadki, w których jedna metryka musi zostać wykorzystana, np. do wyświetlenia listy najczęściej otwieranych zgłoszeń lub w celu stopniowania wyników wyszukiwania. Wybierz jedną ze skonfigurowanych metryk jako domyślną.
 	</message>
-	<message key="manager.statistics.city">miasto</message>
+	<message key="manager.statistics.city">Miasto</message>
 	<message key="manager.statistics.region">Region</message>
 	
 	<message key="manager.statistics.reports">Generator raportów</message>
@@ -513,33 +513,33 @@
 	<message key="manager.navigationMenus.form.url">URL</message>
 	<message key="manager.navigationMenus.form.customUrlError">URL musi być podany</message>
 
-	<message key="manager.navigationMenus.form.conditionalDisplay">Learn more about when this menu item will be displayed or hidden.</message>
-	<message key="manager.navigationMenus.form.submenuWarning">When a menu item opens a submenu, it's link can not be followed on all devices. For example, if you have an "About" item which opens a submenu with "Contact" and "Editorial Team", the "About" link may not be reachable on all devices. In the default menu, this is handled by creating a second menu item, "About the Journal", which appears in the submenu.</message>
+	<message key="manager.navigationMenus.form.conditionalDisplay">Dowiedz się więcej o tym, kiedy ten punkt menu zostanie wyświetlony lub ukryty.</message>
+	<message key="manager.navigationMenus.form.submenuWarning">Gdy element menu otwiera się w podmenu, łącze może być nie widoczne na wszystkich urządzeniach. Na przykład, jeśli masz pozycję "Informacje o", która otwiera podmenu z "Kontakt" i "Ekipa redakcyjna", link "Informacje o" może nie być dostępny na wszystkich urządzeniach. W menu domyślnym jest ono obsługiwane poprzez utworzenie drugiej pozycji menu "About the Journal"(O dzienniku), która pojawia się w podmenu.</message>
 
 	<message key="manager.navigationMenus.form.navigationMenuItemType">Navigation Menu Type</message>
 	<message key="manager.navigationMenus.form.navigationMenuItemTypeMessage">Select a Navigation Menu Type or Custom to make your own</message>
 	<message key="manager.navigationMenus.customPage">Custom Page</message>
 	<message key="manager.navigationMenus.customPage.description">Create a custom page on your site and link to it from a navigation menu.</message>
-	<message key="manager.navigationMenus.remoteUrl">Remote URL</message>
-	<message key="manager.navigationMenus.remoteUrl.description">Link to any URL on another site, like https://pkp.sfu.ca.</message>
+	<message key="manager.navigationMenus.remoteUrl">Zewnętrzny adres URL</message>
+	<message key="manager.navigationMenus.remoteUrl.description">Link do dowolnego adresu URL na innej stronie, np. https://pkp.sfu.ca.</message>
 	<message key="manager.navigationMenus.about.description">Link to a page displaying the About the Journal content in Settings > Journal</message>
 	<message key="manager.navigationMenus.about.conditionalWarning">This link will only be displayed if you have filled out the About the Journal section under Settings > Journal.</message>
 	<message key="manager.navigationMenus.editorialTeam.description">Link to a page displaying the Masthead content in Settings > Journal.</message>
-	<message key="manager.navigationMenus.editorialTeam.conditionalWarning">This link will only be displayed if you have filled out the Editorial Team section under Settings > Journal.</message>
-	<message key="manager.navigationMenus.submissions.description">Link to the page displaying submission instructions.</message>
-	<message key="manager.navigationMenus.current.description">Link to your current issue.</message>
-	<message key="manager.navigationMenus.archives.description">Link to your issue archive.</message>
-	<message key="manager.navigationMenus.announcements.description">Link to the page displaying your announcements.</message>
-	<message key="manager.navigationMenus.announcements.conditionalWarning">This link will only be displayed if you have enabled announcements under Settings > Website.</message>
-	<message key="manager.navigationMenus.login.description">Link to the user login page.</message>
-	<message key="manager.navigationMenus.register.description">Link to the user registration page.</message>
+	<message key="manager.navigationMenus.editorialTeam.conditionalWarning">Ten link zostanie wyświetlony tylko wtedy, gdy wypełniłeś sekcję Redakcja w zakładce Ustawienia > Dziennik.</message>
+	<message key="manager.navigationMenus.submissions.description">Link do strony wyświetlającej instrukcje składania artykułów.</message>
+	<message key="manager.navigationMenus.current.description">Odniesienie do aktualnego wydania.</message>
+	<message key="manager.navigationMenus.archives.description">Link do archiwum zgłoszeń.</message>
+	<message key="manager.navigationMenus.announcements.description">Link do strony z ogłoszeniami.</message>
+	<message key="manager.navigationMenus.announcements.conditionalWarning">Link ten będzie wyświetlany tylko wtedy, gdy włączyłeś ogłoszenia w zakładce Ustawienia > Strona www.</message>
+	<message key="manager.navigationMenus.login.description">Link do strony logowania użytkownika.</message>
+	<message key="manager.navigationMenus.register.description">Link do strony rejestracji użytkownika.</message>
 	<message key="manager.navigationMenus.dashboard.description">Link to the editorial dashboard.</message>
-	<message key="manager.navigationMenus.profile.description">Link to the user profile page.</message>
-	<message key="manager.navigationMenus.administration.description">Link to the site-wide administration tools.</message>
-	<message key="manager.navigationMenus.administration.conditionalWarning">This link will only be displayed to administrative users.</message>
-	<message key="manager.navigationMenus.logOut.description">A link that will log the user out.</message>
-	<message key="manager.navigationMenus.loggedOut.conditionalWarning">This link will only be displayed when the visitor is logged in.</message>
-	<message key="manager.navigationMenus.loggedIn.conditionalWarning">This link will only be displayed when the visitor is not logged in.</message>
-	<message key="manager.navigationMenus.contact.description">Link to a page displaying your contact information.</message>
-	<message key="manager.navigationMenus.contact.conditionalWarning">This link will only be displayed if you have filled out the Contact information under Settings > Contact.</message>
+	<message key="manager.navigationMenus.profile.description">Link do strony profilu użytkownika.</message>
+	<message key="manager.navigationMenus.administration.description">Link do strony z narzędziami administracyjnymi.</message>
+	<message key="manager.navigationMenus.administration.conditionalWarning">Ten link będzie wyświetlany tylko dla użytkowników administracyjnych.</message>
+	<message key="manager.navigationMenus.logOut.description">Link, który wyloguje użytkownika.</message>
+	<message key="manager.navigationMenus.loggedOut.conditionalWarning">Ten link będzie wyświetlane tylko wtedy, gdy użytkownik jest zalogowany.</message>
+	<message key="manager.navigationMenus.loggedIn.conditionalWarning">Ten link zostanie wyświetlone tylko wtedy, gdy użytkownik nie jest zalogowany.</message>
+	<message key="manager.navigationMenus.contact.description">Link do strony wyświetlającej informacje kontaktowe.</message>
+	<message key="manager.navigationMenus.contact.conditionalWarning">To łącze zostanie wyświetlone tylko wtedy, gdy wypełniono dane kontaktowe w zakładce Ustawienia > Kontakt.</message>
 </locale>
